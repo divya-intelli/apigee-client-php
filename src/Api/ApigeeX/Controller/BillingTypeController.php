@@ -79,7 +79,6 @@ abstract class BillingTypeController extends EntityController implements Billing
      */
     private function getDeveloperBillingType(): BillingTypeInterface
     {
-
         $item = $this->getRawSingleList($this->getBaseEndpointUri());
 
         /** @var \Apigee\Edge\Entity\EntityInterface $tmp */
