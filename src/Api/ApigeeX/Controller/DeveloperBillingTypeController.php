@@ -33,7 +33,7 @@ class DeveloperBillingTypeController extends BillingTypeController
     protected $developer;
 
     /**
-     * DeveloperBillingTypeController  constructor.
+     * DeveloperBillingTypeController constructor.
      *
      * @param string $developerId
      * @param string $organization
