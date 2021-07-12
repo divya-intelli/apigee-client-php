@@ -75,7 +75,7 @@ abstract class BillingTypeController extends EntityController implements Billing
     /**
      * Helper function for getting the billing type.
      *
-     * @return \Apigee\Edge\Api\ApigeeX\Entity\BillingTypeInterface[]
+     * @return \Apigee\Edge\Api\ApigeeX\Entity\BillingTypeInterface
      */
     private function getDeveloperBillingType(): BillingTypeInterface
     {
